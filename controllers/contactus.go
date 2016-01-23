@@ -16,5 +16,5 @@ type ContactUsController struct {
 func (this *ContactUsController) Get() {
 	this.Data["title"] = "Contact Us"
 	this.Data["IsContact"] = true
-	this.TplNames = "contactus.html"
+	this.TplName = "contactus.html"
 }

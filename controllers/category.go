@@ -21,7 +21,7 @@ type TestController struct {
 func (this *CategoryController) Get() {
 	this.Data["title"] = "Our Products"
 	this.Data["IsCategory"] = true
-	this.TplNames = "category.html"
+	this.TplName = "category.html"
 	//this.Ctx.WriteString("from category")
 }
 

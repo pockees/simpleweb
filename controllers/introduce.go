@@ -16,5 +16,5 @@ type IntroduceController struct {
 func (this *IntroduceController) Get() {
 	this.Data["IsAbout"] = true
 	this.Data["title"] = "About"
-	this.TplNames = "aboutus.html"
+	this.TplName = "aboutus.html"
 }

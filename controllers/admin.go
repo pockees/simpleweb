@@ -19,13 +19,13 @@ type AdminController struct {
 func (this *AdminController) Get() {
 	this.Data["title"] = "Administrator Page"
 	this.Data["IsAdmin"] = true
-	this.TplNames = "admin.html"
+	this.TplName = "admin.html"
 }
 func (this *AdminController) Post() {
 	this.Data["title"] = "Administrator Page"
 	this.Data["IsAdmin"] = true
 
-	this.TplNames = "admin.html"
+	this.TplName = "admin.html"
 
 	/*
 		//below code need add login page ,not here

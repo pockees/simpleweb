@@ -3,8 +3,8 @@ package main
 import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
-	"myapp/models"
-	_ "myapp/routers"
+	"github.com/pockees/simpleweb/models"
+	_ "github.com/pockees/simpleweb/routers"
 )
 
 func init() {

@@ -16,5 +16,5 @@ type NewsController struct {
 func (this *NewsController) Get() {
 	this.Data["IsNews"] = true
 	this.Data["title"] = "News"
-	this.TplNames = "news.html"
+	this.TplName = "news.html"
 }
